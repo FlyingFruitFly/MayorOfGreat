@@ -183,6 +183,10 @@ void EmptyLinkFunctionForGeneratedCodeMayorOfGreatCharacter() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_FollowCamera;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_player_attr_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_m_player_attr;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_BaseTurnRate;
@@ -233,6 +237,12 @@ void EmptyLinkFunctionForGeneratedCodeMayorOfGreatCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_FollowCamera = { "FollowCamera", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMayorOfGreatCharacter, FollowCamera), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_FollowCamera_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_FollowCamera_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_m_player_attr_MetaData[] = {
+		{ "ModuleRelativePath", "MayorOfGreatCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_m_player_attr = { "m_player_attr", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMayorOfGreatCharacter, m_player_attr), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UPlayerAttr_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_m_player_attr_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_m_player_attr_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
@@ -253,6 +263,7 @@ void EmptyLinkFunctionForGeneratedCodeMayorOfGreatCharacter() {}
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMayorOfGreatCharacter_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_CameraBoom,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_FollowCamera,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_m_player_attr,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_BaseTurnRate,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMayorOfGreatCharacter_Statics::NewProp_BaseLookUpRate,
 	};
@@ -283,7 +294,7 @@ void EmptyLinkFunctionForGeneratedCodeMayorOfGreatCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMayorOfGreatCharacter, 2623794366);
+	IMPLEMENT_CLASS(AMayorOfGreatCharacter, 2502830844);
 	template<> MAYOROFGREAT_API UClass* StaticClass<AMayorOfGreatCharacter>()
 	{
 		return AMayorOfGreatCharacter::StaticClass();

@@ -22,7 +22,9 @@ class AMayorOfGreatCharacter : public ACharacter
 	class UCameraComponent* FollowCamera;
 	
 	BoneScale m_bone_scale;
-	UPlayerAttr m_player_attr;
+
+	UPROPERTY()
+	UPlayerAttr* m_player_attr;
 	UFUNCTION(BlueprintCallable, Category = "Game")
 		void setBoneScale(FString bone_name, float scale);
 

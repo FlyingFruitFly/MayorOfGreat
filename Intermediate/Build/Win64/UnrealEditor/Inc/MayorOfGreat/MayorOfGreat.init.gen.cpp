@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMayorOfGreat_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x3C85D97B,
+				0x95B8EEAD,
 				0xE5B8BD32,
 				METADATA_PARAMS(nullptr, 0)
 			};

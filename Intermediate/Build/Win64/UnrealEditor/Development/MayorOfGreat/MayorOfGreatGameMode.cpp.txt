@@ -95,8 +95,10 @@ C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEdito
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\UMG\UserWidget.generated.h
-C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\MayorOfGreatGameMode.generated.h
-C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\MayorOfGreatCharacter.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\EventManager.h
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\set
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\Event.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
 C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\CharacterMovementReplication.generated.h
@@ -109,7 +111,12 @@ C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\Un
 C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\FavorAttr.h
 C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\FavorAttr.generated.h
 C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\PlayerAttr.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\EventOption.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\EventOption.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\Event.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\EventManager.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\MayorOfGreatGameMode.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\MayorOfGreatCharacter.h
 C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\BoneScale.h
 C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\map
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE\xtree
 C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\MayorOfGreatCharacter.generated.h

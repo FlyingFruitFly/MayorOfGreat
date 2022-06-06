@@ -17,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeEventOption() {}
 	MAYOROFGREAT_API UClass* Z_Construct_UClass_UEventOption();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	UPackage* Z_Construct_UPackage__Script_MayorOfGreat();
+	MAYOROFGREAT_API UClass* Z_Construct_UClass_UPlayerAttr_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(UEventOption::execgetDescribe)
 	{
@@ -118,6 +120,11 @@ void EmptyLinkFunctionForGeneratedCodeEventOption() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_impact_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_m_impact;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -135,6 +142,15 @@ void EmptyLinkFunctionForGeneratedCodeEventOption() {}
 		{ "ModuleRelativePath", "EventOption.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEventOption_Statics::NewProp_m_impact_MetaData[] = {
+		{ "ModuleRelativePath", "EventOption.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UEventOption_Statics::NewProp_m_impact = { "m_impact", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEventOption, m_impact), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UPlayerAttr_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEventOption_Statics::NewProp_m_impact_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEventOption_Statics::NewProp_m_impact_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEventOption_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEventOption_Statics::NewProp_m_impact,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UEventOption_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UEventOption>::IsAbstract,
 	};
@@ -144,11 +160,11 @@ void EmptyLinkFunctionForGeneratedCodeEventOption() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_UEventOption_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UEventOption_Statics::PropPointers),
 		0,
 		0x000000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UEventOption_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UEventOption_Statics::Class_MetaDataParams))
@@ -162,7 +178,7 @@ void EmptyLinkFunctionForGeneratedCodeEventOption() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UEventOption, 3997061389);
+	IMPLEMENT_CLASS(UEventOption, 2490772893);
 	template<> MAYOROFGREAT_API UClass* StaticClass<UEventOption>()
 	{
 		return UEventOption::StaticClass();

@@ -2,8 +2,8 @@
 
 UPlayerAttr::UPlayerAttr()
 {
-	m_support = NewObject<USupportAttr>(this, USupportAttr::StaticClass());
-	m_favor = NewObject<UFavorAttr>(this, UFavorAttr::StaticClass());
+	//m_support = CreateDefaultSubobject<USupportAttr>(TEXT("Support"));
+	//m_favor = CreateDefaultSubobject<UFavorAttr>(TEXT("Favor"));
 }
 
 int32 UPlayerAttr::getCharm()

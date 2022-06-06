@@ -75,7 +75,11 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEventManager)
 
 
-#define MayorOfGreat_Source_MayorOfGreat_EventManager_h_10_PRIVATE_PROPERTY_OFFSET
+#define MayorOfGreat_Source_MayorOfGreat_EventManager_h_10_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_events() { return STRUCT_OFFSET(UEventManager, m_events); } \
+	FORCEINLINE static uint32 __PPO__m_chosen_event() { return STRUCT_OFFSET(UEventManager, m_chosen_event); }
+
+
 #define MayorOfGreat_Source_MayorOfGreat_EventManager_h_7_PROLOG
 #define MayorOfGreat_Source_MayorOfGreat_EventManager_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

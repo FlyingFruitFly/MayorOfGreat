@@ -10,17 +10,22 @@ class UEvent:public UClass
 {
 	GENERATED_BODY()
 
-	FString m_UEvent_name;
+	FString m_event_name;
 	int32 m_begin_date;
 	int32 m_final_date;
-	UEventOption* m_options;
 	FString m_describe;
 	FString m_label;
 	FString m_talker;
 
+	UPROPERTY()
+	TArray<UEventOption*> m_options;
+
 public:
 	UEvent();
 	~UEvent();
+	UFUNCTION(BlueprintCallable, Category = "Game")
+		FString getEventName();
+
 	UFUNCTION(BlueprintCallable, Category = "Game")
 		FString getDescribe();
 
@@ -37,4 +42,5 @@ public:
 		FString getTalker();
 
 	bool checkAvailable(int32 date, UPlayerAttr player_attr);
+	void setUpData();
 };

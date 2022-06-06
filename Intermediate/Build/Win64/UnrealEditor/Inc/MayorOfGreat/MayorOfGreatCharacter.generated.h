@@ -73,7 +73,8 @@ public: \
 
 #define MayorOfGreat_Source_MayorOfGreat_MayorOfGreatCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CameraBoom() { return STRUCT_OFFSET(AMayorOfGreatCharacter, CameraBoom); } \
-	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMayorOfGreatCharacter, FollowCamera); }
+	FORCEINLINE static uint32 __PPO__FollowCamera() { return STRUCT_OFFSET(AMayorOfGreatCharacter, FollowCamera); } \
+	FORCEINLINE static uint32 __PPO__m_player_attr() { return STRUCT_OFFSET(AMayorOfGreatCharacter, m_player_attr); }
 
 
 #define MayorOfGreat_Source_MayorOfGreat_MayorOfGreatCharacter_h_11_PROLOG

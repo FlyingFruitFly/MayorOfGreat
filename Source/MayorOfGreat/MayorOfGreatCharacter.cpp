@@ -24,7 +24,7 @@ float AMayorOfGreatCharacter::getBoneScale(FString bone_name)
 
 UPlayerAttr* AMayorOfGreatCharacter::getUPlayerAttr()
 {
-	return &m_player_attr;
+	return m_player_attr;
 }
 
 AMayorOfGreatCharacter::AMayorOfGreatCharacter()
@@ -65,6 +65,7 @@ AMayorOfGreatCharacter::AMayorOfGreatCharacter()
 void AMayorOfGreatCharacter::BeginPlay()
 {
 	Super::BeginPlay();
+	m_player_attr = NewObject<UPlayerAttr>(this, UPlayerAttr::StaticClass());
 }
 
 void AMayorOfGreatCharacter::Tick(float DeltaTime)

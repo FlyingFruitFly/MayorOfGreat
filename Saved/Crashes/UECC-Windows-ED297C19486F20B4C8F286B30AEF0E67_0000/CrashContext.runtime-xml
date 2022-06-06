@@ -26,7 +26,7 @@
 		<EngineModeEx>Unset</EngineModeEx>
 		<DeploymentName />
 		<EngineVersion>5.0.0-16682836+++UE5+Release-5.0-EarlyAccess</EngineVersion>
-		<CommandLine>C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\MayorOfGreat.uproject</CommandLine>
+		<CommandLine>CommandLineRemoved</CommandLine>
 		<LanguageLCID>0</LanguageLCID>
 		<AppDefaultLocale>zh-CN</AppDefaultLocale>
 		<BuildVersion>++UE5+Release-5.0-EarlyAccess-CL-16682836</BuildVersion>

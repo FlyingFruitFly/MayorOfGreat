@@ -79,7 +79,10 @@ public: \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEvent)
 
 
-#define MayorOfGreat_Source_MayorOfGreat_Event_h_11_PRIVATE_PROPERTY_OFFSET
+#define MayorOfGreat_Source_MayorOfGreat_Event_h_11_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_options() { return STRUCT_OFFSET(UEvent, m_options); }
+
+
 #define MayorOfGreat_Source_MayorOfGreat_Event_h_8_PROLOG
 #define MayorOfGreat_Source_MayorOfGreat_Event_h_11_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

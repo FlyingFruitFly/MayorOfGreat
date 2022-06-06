@@ -10,10 +10,13 @@ class UEventOption :public UClass
 
 	FString m_name;
 	FString m_describe;
-	UPlayerAttr m_impact;
 	bool m_available{ false };
 
+	UPROPERTY()
+	UPlayerAttr* m_impact;
+
 public:
+	UEventOption();
 	bool checkAvailable(UPlayerAttr player_attr);
 
 	UFUNCTION(BlueprintCallable, Category = "Game")
@@ -21,5 +24,7 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Game")
 		FString getDescribe();
+
+	void setUpData();
 
 };

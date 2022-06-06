@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
 #include "Blueprint/UserWidget.h"
+#include "EventManager.h"
 #include "MayorOfGreatGameMode.generated.h"
 
 UCLASS(minimalapi)
@@ -12,6 +13,7 @@ class AMayorOfGreatGameMode : public AGameModeBase
 {
 	GENERATED_BODY()
 
+	UEventManager* m_event_manager;
 public:
 	AMayorOfGreatGameMode();
 	virtual void BeginPlay() override;

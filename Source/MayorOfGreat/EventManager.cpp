@@ -14,3 +14,10 @@ void UEventManager::decideEvent()
 {
 
 }
+
+void UEventManager::setUpdata()
+{
+	UEvent* new_event = NewObject<UEvent>(this, UEvent::StaticClass());
+	new_event->setUpData();
+	m_events.add(new_event);
+}

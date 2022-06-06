@@ -121,6 +121,16 @@ void EmptyLinkFunctionForGeneratedCodeEventManager() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_m_events_Inner;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_events_MetaData[];
+#endif
+		static const UECodeGen_Private::FArrayPropertyParams NewProp_m_events;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_chosen_event_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_m_chosen_event;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -138,6 +148,24 @@ void EmptyLinkFunctionForGeneratedCodeEventManager() {}
 		{ "ModuleRelativePath", "EventManager.h" },
 	};
 #endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UEventManager_Statics::NewProp_m_events_Inner = { "m_events", nullptr, (EPropertyFlags)0x0000000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UEvent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEventManager_Statics::NewProp_m_events_MetaData[] = {
+		{ "ModuleRelativePath", "EventManager.h" },
+	};
+#endif
+	const UECodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UEventManager_Statics::NewProp_m_events = { "m_events", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEventManager, m_events), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UEventManager_Statics::NewProp_m_events_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEventManager_Statics::NewProp_m_events_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEventManager_Statics::NewProp_m_chosen_event_MetaData[] = {
+		{ "ModuleRelativePath", "EventManager.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UEventManager_Statics::NewProp_m_chosen_event = { "m_chosen_event", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UEventManager, m_chosen_event), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UEvent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEventManager_Statics::NewProp_m_chosen_event_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEventManager_Statics::NewProp_m_chosen_event_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEventManager_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEventManager_Statics::NewProp_m_events_Inner,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEventManager_Statics::NewProp_m_events,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEventManager_Statics::NewProp_m_chosen_event,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UEventManager_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UEventManager>::IsAbstract,
 	};
@@ -147,11 +175,11 @@ void EmptyLinkFunctionForGeneratedCodeEventManager() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_UEventManager_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UEventManager_Statics::PropPointers),
 		0,
 		0x000000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UEventManager_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UEventManager_Statics::Class_MetaDataParams))
@@ -165,7 +193,7 @@ void EmptyLinkFunctionForGeneratedCodeEventManager() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UEventManager, 3369936152);
+	IMPLEMENT_CLASS(UEventManager, 951439195);
 	template<> MAYOROFGREAT_API UClass* StaticClass<UEventManager>()
 	{
 		return UEventManager::StaticClass();

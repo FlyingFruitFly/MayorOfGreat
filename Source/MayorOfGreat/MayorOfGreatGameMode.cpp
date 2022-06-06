@@ -17,6 +17,7 @@ AMayorOfGreatGameMode::AMayorOfGreatGameMode()
 void AMayorOfGreatGameMode::BeginPlay()
 {
 	Super::BeginPlay();
+    m_event_manager = NewObject<UEventManager>(this, UEventManager::StaticClass());
 	ChangeMenuWidget(StartingWidgetClass);
 }
 

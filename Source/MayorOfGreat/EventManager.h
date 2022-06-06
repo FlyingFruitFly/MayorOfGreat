@@ -9,8 +9,12 @@ class UEventManager :public UClass
 {
 	GENERATED_BODY()
 
-	std::set<UEvent> m_events;
 	int32 m_date;
+
+	UPROPERTY()
+	TArray<UEvent*> m_events;
+
+	UPROPERTY()
 	UEvent* m_chosen_event;
 public:
 	UFUNCTION(BlueprintCallable, Category = "Game")
@@ -21,5 +25,6 @@ public:
 
 private:
 	void decideEvent();
+	void setUpData();
 };
 

@@ -50,7 +50,7 @@ public: \
 
 #define MayorOfGreat_Source_MayorOfGreat_EventOption_h_9_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UEventOption(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UEventOption(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEventOption) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEventOption); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEventOption); \
@@ -62,8 +62,6 @@ public:
 
 
 #define MayorOfGreat_Source_MayorOfGreat_EventOption_h_9_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UEventOption(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UEventOption(UEventOption&&); \
@@ -71,10 +69,13 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UEventOption); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UEventOption); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UEventOption)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UEventOption)
 
 
-#define MayorOfGreat_Source_MayorOfGreat_EventOption_h_9_PRIVATE_PROPERTY_OFFSET
+#define MayorOfGreat_Source_MayorOfGreat_EventOption_h_9_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_impact() { return STRUCT_OFFSET(UEventOption, m_impact); }
+
+
 #define MayorOfGreat_Source_MayorOfGreat_EventOption_h_6_PROLOG
 #define MayorOfGreat_Source_MayorOfGreat_EventOption_h_9_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
