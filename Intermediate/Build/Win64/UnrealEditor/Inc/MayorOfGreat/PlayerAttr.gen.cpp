@@ -285,6 +285,15 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttr() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_support_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_m_support;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_m_favor_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_m_favor;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -306,6 +315,22 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttr() {}
 		{ "ModuleRelativePath", "PlayerAttr.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_support_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerAttr.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_support = { "m_support", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttr, m_support), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_USupportAttr_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_support_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_support_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_favor_MetaData[] = {
+		{ "ModuleRelativePath", "PlayerAttr.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_favor = { "m_favor", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UPlayerAttr, m_favor), Z_Construct_UClass_UObject_NoRegister, Z_Construct_UClass_UFavorAttr_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_favor_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_favor_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UPlayerAttr_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_support,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UPlayerAttr_Statics::NewProp_m_favor,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UPlayerAttr_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UPlayerAttr>::IsAbstract,
 	};
@@ -315,11 +340,11 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttr() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_UPlayerAttr_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		UE_ARRAY_COUNT(FuncInfo),
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttr_Statics::PropPointers),
 		0,
 		0x000000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UPlayerAttr_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_UPlayerAttr_Statics::Class_MetaDataParams))
@@ -333,7 +358,7 @@ void EmptyLinkFunctionForGeneratedCodePlayerAttr() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UPlayerAttr, 4083215930);
+	IMPLEMENT_CLASS(UPlayerAttr, 3500612166);
 	template<> MAYOROFGREAT_API UClass* StaticClass<UPlayerAttr>()
 	{
 		return UPlayerAttr::StaticClass();

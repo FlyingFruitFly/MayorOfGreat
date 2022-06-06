@@ -1,5 +1,11 @@
 #include "PlayerAttr.h"
 
+UPlayerAttr::UPlayerAttr()
+{
+	m_support = NewObject<USupportAttr>(this, USupportAttr::StaticClass());
+	m_favor = NewObject<UFavorAttr>(this, UFavorAttr::StaticClass());
+}
+
 int32 UPlayerAttr::getCharm()
 {
 	return m_charm;
@@ -22,12 +28,12 @@ int32 UPlayerAttr::getExpress()
 
 USupportAttr* UPlayerAttr::getSupport()
 {
-	return &m_support;
+	return m_support;
 }
 
 UFavorAttr* UPlayerAttr::getFavor()
 {
-	return &m_favor;
+	return m_favor;
 }
 
 void UPlayerAttr::add(const UPlayerAttr& other)
@@ -36,6 +42,6 @@ void UPlayerAttr::add(const UPlayerAttr& other)
 	m_wealth += other.m_wealth;
 	m_political_tendency += other.m_political_tendency;
 	m_express += other.m_express;
-	m_support.add(other.m_support);
-	m_favor.add(other.m_favor);
+	m_support->add(*other.m_support);
+	m_favor->add(*other.m_favor);
 }

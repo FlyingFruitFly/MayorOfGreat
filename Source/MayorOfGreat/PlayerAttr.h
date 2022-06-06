@@ -13,10 +13,15 @@ class UPlayerAttr :public UClass
 	int32 m_wealth;
 	int32 m_political_tendency;
 	int32 m_express;
-	USupportAttr m_support;
-	UFavorAttr m_favor;
+
+	UPROPERTY()
+	USupportAttr* m_support;
+
+	UPROPERTY()
+	UFavorAttr* m_favor;
 
 public:
+	UPlayerAttr();
 	UFUNCTION(BlueprintCallable, Category = "Game")
 		int32 getCharm();
 

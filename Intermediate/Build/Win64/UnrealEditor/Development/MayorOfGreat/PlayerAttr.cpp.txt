@@ -1,0 +1,13 @@
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Development\MayorOfGreat\Definitions.MayorOfGreat.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\PlayerAttr.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\SupportAttr.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\Character.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\SupportAttr.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\FavorAttr.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\FavorAttr.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\PlayerAttr.generated.h

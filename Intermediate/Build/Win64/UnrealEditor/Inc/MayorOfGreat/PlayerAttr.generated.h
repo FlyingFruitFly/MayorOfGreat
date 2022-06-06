@@ -59,7 +59,7 @@ public: \
 
 #define MayorOfGreat_Source_MayorOfGreat_PlayerAttr_h_10_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UPlayerAttr(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API UPlayerAttr(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerAttr) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPlayerAttr); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerAttr); \
@@ -71,8 +71,6 @@ public:
 
 
 #define MayorOfGreat_Source_MayorOfGreat_PlayerAttr_h_10_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API UPlayerAttr(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UPlayerAttr(UPlayerAttr&&); \
@@ -80,10 +78,14 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, UPlayerAttr); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPlayerAttr); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPlayerAttr)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UPlayerAttr)
 
 
-#define MayorOfGreat_Source_MayorOfGreat_PlayerAttr_h_10_PRIVATE_PROPERTY_OFFSET
+#define MayorOfGreat_Source_MayorOfGreat_PlayerAttr_h_10_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__m_support() { return STRUCT_OFFSET(UPlayerAttr, m_support); } \
+	FORCEINLINE static uint32 __PPO__m_favor() { return STRUCT_OFFSET(UPlayerAttr, m_favor); }
+
+
 #define MayorOfGreat_Source_MayorOfGreat_PlayerAttr_h_7_PROLOG
 #define MayorOfGreat_Source_MayorOfGreat_PlayerAttr_h_10_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
