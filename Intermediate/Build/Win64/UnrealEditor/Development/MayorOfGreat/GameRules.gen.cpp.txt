@@ -1,0 +1,9 @@
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Development\MayorOfGreat\Definitions.MayorOfGreat.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat/GameRules.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\GameModeBase.generated.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Inc\MayorOfGreat\GameRules.generated.h

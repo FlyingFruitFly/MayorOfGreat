@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6EFBC6FA-6F75-404B-BC7B-80EB8CFD78D5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MayorOfGreat.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MayorOfGreatEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{D0D05049-50F7-4B57-9883-BEF6007E330C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MayorOfGreat">
+      <UniqueIdentifier>{68964C2C-2873-45A9-8AA4-ECAF7E0DADA6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MayorOfGreat\GameRules.cpp">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MayorOfGreat\GameRules.h">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MayorOfGreat\MayorOfGreat.Build.cs">
+      <Filter>Source\MayorOfGreat</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MayorOfGreat\MayorOfGreat.cpp">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MayorOfGreat\MayorOfGreat.h">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MayorOfGreat\MayorOfGreatCharacter.cpp">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MayorOfGreat\MayorOfGreatCharacter.h">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MayorOfGreat\MayorOfGreatGameMode.cpp">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MayorOfGreat\MayorOfGreatGameMode.h">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MayorOfGreat\MyPlayerController.cpp">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MayorOfGreat\MyPlayerController.h">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClInclude>
+    <Filter Include="Source\MayorOfGreat\PlayerAttr">
+      <UniqueIdentifier>{cde1946d-c5c2-4190-b52c-50e3695b4e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\MayorOfGreat\Event">
+      <UniqueIdentifier>{8aa9a5be-8246-40f9-bea3-0514b875d722}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\MayorOfGreat\BoneScale.cpp">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MayorOfGreat\PlayerAttr.cpp">
+      <Filter>Source\MayorOfGreat\PlayerAttr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MayorOfGreat\FavorAttr.cpp">
+      <Filter>Source\MayorOfGreat\PlayerAttr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MayorOfGreat\Event.cpp">
+      <Filter>Source\MayorOfGreat\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MayorOfGreat\EventManager.cpp">
+      <Filter>Source\MayorOfGreat\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MayorOfGreat\SupportAttr.cpp">
+      <Filter>Source\MayorOfGreat\PlayerAttr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\MayorOfGreat\EventOption.cpp">
+      <Filter>Source\MayorOfGreat\Event</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\MayorOfGreat\BoneScale.h">
+      <Filter>Source\MayorOfGreat</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MayorOfGreat\PlayerAttr.h">
+      <Filter>Source\MayorOfGreat\PlayerAttr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MayorOfGreat\SupportAttr.h">
+      <Filter>Source\MayorOfGreat\PlayerAttr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MayorOfGreat\Event.h">
+      <Filter>Source\MayorOfGreat\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MayorOfGreat\EventManager.h">
+      <Filter>Source\MayorOfGreat\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MayorOfGreat\FavorAttr.h">
+      <Filter>Source\MayorOfGreat\PlayerAttr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\MayorOfGreat\EventOption.h">
+      <Filter>Source\MayorOfGreat\Event</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\MayorOfGreat.uproject">
+      <Filter>Source\MayorOfGreat</Filter>
+    </None>
+  </ItemGroup>
+</Project>

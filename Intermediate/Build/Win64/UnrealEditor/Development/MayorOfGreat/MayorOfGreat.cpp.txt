@@ -1,0 +1,2 @@
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Development\MayorOfGreat\Definitions.MayorOfGreat.h
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Source\MayorOfGreat\MayorOfGreat.h

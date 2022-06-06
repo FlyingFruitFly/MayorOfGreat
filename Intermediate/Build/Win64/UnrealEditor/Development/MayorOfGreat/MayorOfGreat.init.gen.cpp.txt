@@ -1,0 +1,3 @@
+C:\Users\49165\Documents\UnrealProjects\MayorOfGreat\Intermediate\Build\Win64\UnrealEditor\Development\MayorOfGreat\Definitions.MayorOfGreat.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h

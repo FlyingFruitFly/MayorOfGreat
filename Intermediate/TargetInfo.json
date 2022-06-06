@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MayorOfGreat",
+			"Path": "C:\\Users\\49165\\Documents\\UnrealProjects\\MayorOfGreat\\Source\\MayorOfGreat.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MayorOfGreatEditor",
+			"Path": "C:\\Users\\49165\\Documents\\UnrealProjects\\MayorOfGreat\\Source\\MayorOfGreatEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
